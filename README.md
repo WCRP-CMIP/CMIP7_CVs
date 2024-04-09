@@ -1,4 +1,4 @@
-# CMIP7_Controlled Vocabularies
+# CMIP7 Controlled Vocabularies
 Core Controlled Vocabularies (CVs) for use in CMIP7
 
 ## Contributors
