@@ -1,0 +1,42 @@
+# DECK
+[CMIP, 1pctCO2]
+[CMIP, abrupt-4xCO2]
+[CMIP, amip]
+[CMIP, esm-historical]
+[CMIP, esm-piControl]
+[CMIP, historical]
+[CMIP, piClim-4xCO2]
+[CMIP, piClim-anthro]
+[CMIP, piClim-control]
+[CMIP, piControl]
+# AR7 Fast Track
+[AerChemMIP, piClim-X] # multiple
+[AerChemMIP, hist-piAer] # multiple
+[AerChemMIP, hist-piSLCF] # multiple
+[AerChemMIP, SSPX-SLCF]
+[C4MIP, 1pctCO2-bgc]
+[C4MIP, 1pctCO2-rad]
+[C4MIP, esm-flat10-cdr]
+[C4MIP, esm-flat10-zec]
+[CFMIP, abrupt-0p5CO2]
+[CFMIP, abrupt-2xCO2]
+[CFMIP, amip-p4k]
+[CFMIP, amip-piForcing]
+[DAMIP, hist-aer]
+[DAMIP, hist-nat]
+[DAMIP, hist-GHG]
+[DCPP, Initialised prediction (2025-2036)]
+[GeoMIP, newGeoMIP]
+[LMIP, land-hist]
+[PMIP, LIGabrupt]
+[RFMIP, piClim-aer]
+[RFMIP, piClim-histaer]
+[RFMIP, piClim-histall]
+[ScenarioMIP, High scenario]
+[ScenarioMIP, Low scenario 1]
+[ScenarioMIP, Low scenario 2]
+[ScenarioMIP, Low scenario 3]
+[ScenarioMIP, Medium scenario]
+https://wcrp-cmip.org/cmip-panel-meet-to-advance-cmip7-and-ar7-fast-track/
+https://wcrp-cmip.onlyoffice.eu/Products/Files/DocEditor.aspx?fileid=9282348 - all AerChemMIP experiments defined here, Calculator sheet
+https://wcrp-cmip.onlyoffice.eu/Products/Files/#3135223
