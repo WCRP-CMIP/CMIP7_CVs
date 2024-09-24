@@ -1,6 +1,8 @@
 # CMIP7 Controlled Vocabularies
 Core Controlled Vocabularies (CVs) for use in CMIP7
 
+### THIS REPOSITORY IS CURRENTLY UNDER ACTIVE DEVELOPMENT
+
 ## Contributors
 
 [![Contributors](https://contrib.rocks/image?repo=WCRP-CMIP/CMIP7_CVs)](https://github.com/WCRP-CMIP/CMIP7_CVs/graphs/contributors)
