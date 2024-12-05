@@ -1,27 +1,28 @@
 {
     "@context": "_context_",
-    "id": "land-hist.json",
-    "type": "experiment_id",
-    "activity_id": [
-        {
-            "@id": "lmip"
-        }
+    "id": "land-hist",
+    "type": "experiment",
+    "activity": [
+        "lmip"
     ],
     "description": "Land-only simulation of the historical period",
-    "experiment_description": "Land-only simulation of the historical period",
+    "model_realms": {},
     "name": "land-hist",
     "parameters": {
-        "end": "unknown",
-        "min-number-yrs-per-sim": 0,
-        "start": "unknown"
+        "end": -999,
+        "min-number-yrs-per-sim": -999,
+        "start": -999,
+        "id": "additional_parameters"
     },
-    "parent": {
-        "activity_id": [],
-        "experiment-id": []
-    },
+    "parent_activity": [
+        "none"
+    ],
+    "parent_experiment": [
+        "none"
+    ],
+    "sub_experiment": [
+        "none"
+    ],
     "tier": 0,
-    "model_realms": {},
-    "parent_activity": [],
-    "parent_experiment": [],
-    "sub_experiment": {}
+    "experiment_description": "Land-only simulation of the historical period"
 }

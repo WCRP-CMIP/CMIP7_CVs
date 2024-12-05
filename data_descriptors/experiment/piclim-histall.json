@@ -1,27 +1,28 @@
 {
     "@context": "_context_",
-    "id": "piclim-histall.json",
-    "type": "experiment_id",
-    "activity_id": [
-        {
-            "@id": "rfmip"
-        }
+    "id": "piclim-histall",
+    "type": "experiment",
+    "activity": [
+        "rfmip"
     ],
     "description": "Effective radiative forcing by all historical forcing agents",
-    "experiment_description": "Effective radiative forcing by all historical forcing agents",
+    "model_realms": {},
     "name": "piClim-histall",
     "parameters": {
-        "end": "unknown",
-        "min-number-yrs-per-sim": 0,
-        "start": "unknown"
+        "end": -999,
+        "min-number-yrs-per-sim": -999,
+        "start": -999,
+        "id": "additional_parameters"
     },
-    "parent": {
-        "activity_id": [],
-        "experiment-id": []
-    },
+    "parent_activity": [
+        "none"
+    ],
+    "parent_experiment": [
+        "none"
+    ],
+    "sub_experiment": [
+        "none"
+    ],
     "tier": 0,
-    "model_realms": {},
-    "parent_activity": [],
-    "parent_experiment": [],
-    "sub_experiment": {}
+    "experiment_description": "Effective radiative forcing by all historical forcing agents"
 }

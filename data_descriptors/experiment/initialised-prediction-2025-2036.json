@@ -1,27 +1,28 @@
 {
     "@context": "_context_",
-    "id": "initialised-prediction-2025-2036.json",
-    "type": "experiment_id",
-    "activity_id": [
-        {
-            "@id": "dcpp"
-        }
+    "id": "initialised-prediction-2025-2036",
+    "type": "experiment",
+    "activity": [
+        "dcpp"
     ],
     "description": "Initialised prediction for 2025-2036",
-    "experiment_description": "Decadal climate prediction project initialised forecast for 2025-2036",
+    "model_realms": {},
     "name": "Initialised-prediction-2025-2036",
     "parameters": {
-        "end": 2036,
-        "min-number-yrs-per-sim": 11,
-        "start": 2025
+        "end": -999,
+        "min-number-yrs-per-sim": -999,
+        "start": -999,
+        "id": "additional_parameters"
     },
-    "parent": {
-        "activity_id": [],
-        "experiment-id": []
-    },
+    "parent_activity": [
+        "none"
+    ],
+    "parent_experiment": [
+        "none"
+    ],
+    "sub_experiment": [
+        "none"
+    ],
     "tier": 0,
-    "model_realms": {},
-    "parent_activity": [],
-    "parent_experiment": [],
-    "sub_experiment": {}
+    "experiment_description": "Decadal climate prediction project initialised forecast for 2025-2036"
 }

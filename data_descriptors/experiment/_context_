@@ -18,11 +18,11 @@
             },
             "parent_experiment": {
                 "@type": "@id",
-                "@context": "https://wcrp-cmip.github.io/CMIP6Plus_CVs/experiment/_context_"
+                "@context": "https://wcrp-cmip.github.io/CMIP7_CVs/experiment/_context_"
             },
             "sub_experiment": {
                 "@type": "@id",
-                "@context": "https://wcrp-cmip.github.io/CMIP6Plus_CVs/sub_experiment/_context_"
+                "@context": "https://wcrp-cmip.github.io/CMIP7_CVs/sub_experiment/_context_"
             }
         }
     ],

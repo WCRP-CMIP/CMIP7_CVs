@@ -1,11 +1,7 @@
 {
     "type": "object",
     "properties": {
-        "id": {
-            "type": "string",
-            "description": "Unique identifier for the experiment",
-            "pattern": "^[a-z0-9_]+$"
-        },
+        "id": "experiment",
         "type": {
             "type": "string",
             "description": "Type of the entry",
@@ -14,28 +10,9 @@
             ]
         },
         "activity": {
-            "type": "array",
-            "description": "Research activities associated with the experiment",
-            "items": {
-                "type": "string",
-                "enum": [
-                    "cmip",
-                    "aerchemmip",
-                    "c4mip",
-                    "cfmip",
-                    "damip",
-                    "dcpp",
-                    "geomip",
-                    "lesfmip",
-                    "lmip",
-                    "pmip",
-                    "ramip",
-                    "rfmip",
-                    "scenariomip",
-                    "tipmip"
-                ]
-            },
-            "minItems": 1
+            "type": "string",
+            "description": "A reference object from <a href=https://wcrp-cmip.github.io/WCRP-UNIVERSE/activity/> https://wcrp-cmip.github.io/WCRP-UNIVERSE/activity/ </a>. ",
+            "$ref": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/activity/_schema_#/contains"
         },
         "description": {
             "type": "string",
@@ -43,59 +20,9 @@
             "minLength": 5
         },
         "model_realms": {
-            "type": "object",
-            "description": "Model realms and their requirement status",
-            "properties": {
-                "aogcm": {
-                    "type": "object",
-                    "properties": {
-                        "is_required": {
-                            "type": "boolean",
-                            "description": "Whether this realm is required for the experiment"
-                        }
-                    },
-                    "required": [
-                        "is_required"
-                    ]
-                },
-                "aer": {
-                    "type": "object",
-                    "properties": {
-                        "is_required": {
-                            "type": "boolean",
-                            "description": "Whether this realm is required for the experiment"
-                        }
-                    },
-                    "required": [
-                        "is_required"
-                    ]
-                },
-                "chem": {
-                    "type": "object",
-                    "properties": {
-                        "is_required": {
-                            "type": "boolean",
-                            "description": "Whether this realm is required for the experiment"
-                        }
-                    },
-                    "required": [
-                        "is_required"
-                    ]
-                },
-                "bgc": {
-                    "type": "object",
-                    "properties": {
-                        "is_required": {
-                            "type": "boolean",
-                            "description": "Whether this realm is required for the experiment"
-                        }
-                    },
-                    "required": [
-                        "is_required"
-                    ]
-                }
-            },
-            "additionalProperties": false
+            "type": "string",
+            "description": "A reference object from <a href=https://wcrp-cmip.github.io/WCRP-UNIVERSE/realm/> https://wcrp-cmip.github.io/WCRP-UNIVERSE/realm/ </a>. ",
+            "$ref": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/realm/_schema_#/contains"
         },
         "name": {
             "type": "string",
@@ -132,65 +59,21 @@
             ]
         },
         "parent_activity": {
-            "type": "array",
-            "description": "Parent activities of the experiment",
-            "items": {
-                "type": "string",
-                "enum": [
-                    "cmip",
-                    "aerchemmip",
-                    "c4mip",
-                    "cfmip",
-                    "damip",
-                    "dcpp",
-                    "geomip",
-                    "lesfmip",
-                    "lmip",
-                    "pmip",
-                    "ramip",
-                    "rfmip",
-                    "scenariomip",
-                    "tipmip"
-                ]
-            },
-            "minItems": 1
+            "type": "string",
+            "description": "A reference object from <a href=https://wcrp-cmip.github.io/WCRP-UNIVERSE/activity/> https://wcrp-cmip.github.io/WCRP-UNIVERSE/activity/ </a>. ",
+            "$ref": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/activity/_schema_#/contains"
         },
         "parent_experiment": {
-            "type": "array",
-            "description": "Parent experiments",
-            "items": {
-                "type": "string"
-            }
+            "type": "string",
+            "description": "A reference object from <a href=https://wcrp-cmip.github.io/CMIP7_CVs/experiment/> https://wcrp-cmip.github.io/CMIP7_CVs/experiment/ </a>. ",
+            "$ref": "https://wcrp-cmip.github.io/CMIP7_CVs/experiment/_schema_#/contains"
         },
         "sub_experiment": {
-            "type": "array",
-            "description": "Sub-experiments",
-            "items": {
-                "type": "string"
-            }
-        },
-        "tier": {
-            "type": "integer",
-            "description": "Tier level of the experiment",
-            "minimum": 1,
-            "maximum": 3
+            "type": "string",
+            "description": "A reference object from <a href=https://wcrp-cmip.github.io/CMIP7_CVs/sub_experiment/> https://wcrp-cmip.github.io/CMIP7_CVs/sub_experiment/ </a>. ",
+            "$ref": "https://wcrp-cmip.github.io/CMIP7_CVs/sub_experiment/_schema_#/contains"
         }
     },
-    "required": [
-        "@context",
-        "id",
-        "type",
-        "activity",
-        "description",
-        "model_realms",
-        "name",
-        "parameters",
-        "parent_activity",
-        "parent_experiment",
-        "sub_experiment",
-        "tier"
-    ],
-    "additionalProperties": false,
     "id": "experiment",
     "contains": {
         "type": "string",
@@ -239,25 +122,21 @@
             "very-low-scenario"
         ]
     },
-    "activity": {
-        "description": "A reference object from <a href=https://wcrp-cmip.github.io/WCRP-UNIVERSE/activity/> https://wcrp-cmip.github.io/WCRP-UNIVERSE/activity/ </a>",
-        "$ref": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/activity/#/activity"
-    },
-    "model_realms": {
-        "description": "A reference object from <a href=https://wcrp-cmip.github.io/WCRP-UNIVERSE/realm/> https://wcrp-cmip.github.io/WCRP-UNIVERSE/realm/ </a>",
-        "$ref": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/realm/#/realm"
-    },
-    "parent_activity": {
-        "description": "A reference object from <a href=https://wcrp-cmip.github.io/WCRP-UNIVERSE/activity/> https://wcrp-cmip.github.io/WCRP-UNIVERSE/activity/ </a>",
-        "$ref": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/activity/#/activity"
-    },
-    "parent_experiment": {
-        "description": "A reference object from <a href=https://wcrp-cmip.github.io/CMIP6Plus_CVs/experiment/> https://wcrp-cmip.github.io/CMIP6Plus_CVs/experiment/ </a>",
-        "$ref": "https://wcrp-cmip.github.io/CMIP6Plus_CVs/experiment/#/experiment"
-    },
-    "sub_experiment": {
-        "description": "A reference object from <a href=https://wcrp-cmip.github.io/CMIP6Plus_CVs/sub_experiment/> https://wcrp-cmip.github.io/CMIP6Plus_CVs/sub_experiment/ </a>",
-        "$ref": "https://wcrp-cmip.github.io/CMIP6Plus_CVs/sub_experiment/#/sub_experiment"
-    },
+    "required": [
+        "@context",
+        "id",
+        "type",
+        "activity",
+        "description",
+        "model_realms",
+        "name",
+        "parameters",
+        "parent_activity",
+        "parent_experiment",
+        "sub_experiment",
+        "tier"
+    ],
+    "allowAdditionalProperties": true,
+    "markdown_content": " To add a new {id} please fill in the form below. \n\n Existing entries are: \n\n\t  {contains}  \n ___ \n Alternatively [see here]({base}) for more examples. \n  ___",
     "base": "https://github.com/wcrp-cmip/CMIP7_CVs/tree/main/data_descriptors/experiment/"
 }
