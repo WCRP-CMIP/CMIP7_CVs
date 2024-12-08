@@ -10,7 +10,6 @@
   "obs4mips": "https://wolfiex.github.io/obs4MIPs-cmor-tables-ld/",
   "universal": "https://wcrp-cmip.github.io/WCRP-universe/",
   "variables": "https://wcrp-cmip.github.io/MIP-variables/",
-  "wcrp": "https://wcrp-cmip.github.io/",
   "activity": {
     "@type": "@id",
     "@context": "https://wcrp-cmip.github.io/WCRP-universe/activity/_context_"
