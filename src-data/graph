@@ -1,0 +1,1323 @@
+[
+  {
+    "@context": {
+      "@base": "https://wcrp-cmip.github.io/CMIP7_CVs/experiment/",
+      "@vocab": "https://wcrp-cmip.github.io/CMIP7_CVs/experiment/",
+      "id": "@id",
+      "type": "@type",
+      "cf": "https://wcrp-cmip.github.io/CF/",
+      "cmip6plus": "https://wcrp-cmip.github.io/CMIP6Plus_CVs/",
+      "cmip7": "https://wcrp-cmip.github.io/CMIP7_CVs/",
+      "obs4mips": "https://wolfiex.github.io/obs4MIPs-cmor-tables-ld/",
+      "universal": "https://wcrp-cmip.github.io/WCRP-universe/",
+      "variables": "https://wcrp-cmip.github.io/MIP-variables/",
+      "activity": {
+        "@type": "@id",
+        "@context": "https://wcrp-cmip.github.io/WCRP-universe/activity/_context_"
+      },
+      "model_realms": {
+        "@container": "@id",
+        "@context": "https://wcrp-cmip.github.io/WCRP-universe/realm/_context_"
+      },
+      "parent_activity": {
+        "@type": "@id",
+        "@context": "https://wcrp-cmip.github.io/WCRP-universe/activity/_context_"
+      },
+      "parent_experiment": {
+        "@type": "@id",
+        "@context": "https://wcrp-cmip.github.io/CMIP7_CVs/experiment/_context_"
+      },
+      "sub_experiment": {
+        "@type": "@id",
+        "@context": "https://wcrp-cmip.github.io/CMIP7_CVs/sub_experiment/_context_"
+      }
+    },
+    "@graph": [
+      {
+        "id": "1pctco2-bgc",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "c4mip"
+        ],
+        "description": "Biogeochemically-coupled version of 1 percent per year CO2 increase experiment",
+        "model_realms": {},
+        "name": "1pctCO2-bgc",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Biogeochemically-coupled version of 1 percent per year CO2 increase experiment"
+      },
+      {
+        "id": "1pctco2-rad",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "c4mip"
+        ],
+        "description": "Radiatively-coupled version of 1 percent per year CO2 increase experiment",
+        "model_realms": {},
+        "name": "1pctCO2-rad",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Radiatively-coupled version of 1 percent per year CO2 increase experiment"
+      },
+      {
+        "id": "1pctco2",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "cmip"
+        ],
+        "description": "DECK: 1 percent per year CO2 increase",
+        "model_realms": {},
+        "name": "1pctCO2",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Increase CO2 concentration from pre-industrial level at 1% per year until quadrupling"
+      },
+      {
+        "id": "abrupt-0p5co2",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "cfmip"
+        ],
+        "description": "Abrupt halving of CO2",
+        "model_realms": {},
+        "name": "abrupt-0p5CO2",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Abrupt halving of atmospheric CO2"
+      },
+      {
+        "id": "abrupt-2xco2",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "cfmip"
+        ],
+        "description": "Abrupt doubling of CO2",
+        "model_realms": {},
+        "name": "abrupt-2xCO2",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Abrupt doubling of atmospheric CO2"
+      },
+      {
+        "id": "abrupt-4xco2",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "cmip"
+        ],
+        "description": "DECK: abrupt quadrupling of CO2",
+        "model_realms": {},
+        "name": "abrupt-4xCO2",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Abrupt increase in CO2 concentration from pre-industrial level to quadrupling"
+      },
+      {
+        "id": "amip-p4k",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "cfmip"
+        ],
+        "description": "AMIP experiment with uniform 4K SST increase",
+        "model_realms": {},
+        "name": "amip-p4k",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "AMIP experiment with uniform 4K SST increase"
+      },
+      {
+        "id": "amip-piforcing",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "cfmip"
+        ],
+        "description": "AMIP experiment with pre-industrial forcing",
+        "model_realms": {},
+        "name": "amip-piForcing",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "AMIP experiment with pre-industrial forcing"
+      },
+      {
+        "id": "amip",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "cmip"
+        ],
+        "description": "DECK: AMIP",
+        "model_realms": {},
+        "name": "amip",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "AMIP (Atmospheric Model Intercomparison Project) experiment with prescribed SSTs and sea ice"
+      },
+      {
+        "id": "esm-flat10-cdr",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "c4mip"
+        ],
+        "description": "10 years of carbon dioxide removal (CDR) following 10 years of constant atmospheric CO2",
+        "model_realms": {},
+        "name": "esm-flat10-cdr",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "10 years of carbon dioxide removal (CDR) following 10 years of constant atmospheric CO2"
+      },
+      {
+        "id": "esm-flat10-zec",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "c4mip"
+        ],
+        "description": "Zero Emissions Commitment (ZEC) experiment following 10 years of constant atmospheric CO2",
+        "model_realms": {},
+        "name": "esm-flat10-zec",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Zero Emissions Commitment (ZEC) experiment following 10 years of constant atmospheric CO2"
+      },
+      {
+        "id": "esm-hist",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "cmip"
+        ],
+        "description": "DECK: Earth System Model historical simulation",
+        "model_realms": {},
+        "name": "esm-hist",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Historical simulation with Earth System Models"
+      },
+      {
+        "id": "esm-picontrol",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "cmip"
+        ],
+        "description": "DECK: pre-industrial control simulation with Earth System Models",
+        "model_realms": {},
+        "name": "esm-piControl",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Pre-industrial control run for Earth System Models"
+      },
+      {
+        "id": "g7-15k-sai",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "geomip"
+        ],
+        "description": "Stratospheric aerosol injection to reduce warming to 1.5K",
+        "model_realms": {},
+        "name": "G7-15K-SAI",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Stratospheric aerosol injection to reduce warming to 1.5K above pre-industrial levels"
+      },
+      {
+        "id": "high-scenario",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "scenariomip"
+        ],
+        "description": "High emission scenario for future climate projections",
+        "model_realms": {},
+        "name": "high-scenario",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "High emission scenario for future climate projections"
+      },
+      {
+        "id": "hist-aer",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "damip"
+        ],
+        "description": "Historical simulation with aerosol forcing only",
+        "model_realms": {},
+        "name": "hist-aer",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Historical simulation with aerosol forcing only"
+      },
+      {
+        "id": "hist-ghg",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "damip"
+        ],
+        "description": "Historical simulation with greenhouse gas forcing only",
+        "model_realms": {},
+        "name": "hist-GHG",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Historical simulation with greenhouse gas forcing only"
+      },
+      {
+        "id": "hist-nat",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "damip"
+        ],
+        "description": "Historical simulation with natural forcing only",
+        "model_realms": {},
+        "name": "hist-nat",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Historical simulation with natural forcing only"
+      },
+      {
+        "id": "hist-piaer",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "aerchemmip"
+        ],
+        "description": "Historical simulation with pre-industrial aerosols",
+        "model_realms": {},
+        "name": "hist-piAer",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Historical simulation but with pre-industrial aerosol emissions"
+      },
+      {
+        "id": "hist-pislcf",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "aerchemmip"
+        ],
+        "description": "Historical simulation with pre-industrial short-lived climate forcers",
+        "model_realms": {},
+        "name": "hist-piSLCF",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Historical simulation but with pre-industrial short-lived climate forcer emissions"
+      },
+      {
+        "id": "historical",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "cmip"
+        ],
+        "description": "DECK: historical",
+        "model_realms": {},
+        "name": "historical",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Simulation of the recent past"
+      },
+      {
+        "id": "initialised-prediction-2025-2036",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "dcpp"
+        ],
+        "description": "Initialised prediction for 2025-2036",
+        "model_realms": {},
+        "name": "Initialised-prediction-2025-2036",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Decadal climate prediction project initialised forecast for 2025-2036"
+      },
+      {
+        "id": "land-hist",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "lmip"
+        ],
+        "description": "Land-only simulation of the historical period",
+        "model_realms": {},
+        "name": "land-hist",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Land-only simulation of the historical period"
+      },
+      {
+        "id": "ligabrupt",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "pmip"
+        ],
+        "description": "Last Interglacial abrupt change experiment",
+        "model_realms": {},
+        "name": "LIGabrupt",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Simulation of abrupt change during the Last Interglacial period"
+      },
+      {
+        "id": "low-overshoot-scenario",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "scenariomip"
+        ],
+        "description": "Low overshoot scenario for future climate projections",
+        "model_realms": {},
+        "name": "low-overshoot-scenario",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Low overshoot scenario for future climate projections"
+      },
+      {
+        "id": "low-scenario",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "scenariomip"
+        ],
+        "description": "Low emission scenario for future climate projections",
+        "model_realms": {},
+        "name": "low-scenario",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Low emission scenario for future climate projections"
+      },
+      {
+        "id": "medium-scenario-and-extension",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "scenariomip"
+        ],
+        "description": "Medium emission scenario for future climate projections with extension",
+        "model_realms": {},
+        "name": "medium-scenario-and-extension",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Medium emission scenario for future climate projections with extension"
+      },
+      {
+        "id": "piclim-4xco2",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "cmip"
+        ],
+        "description": "DECK: effective radiative forcing by 4xCO2",
+        "model_realms": {},
+        "name": "piClim-4xCO2",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Effective radiative forcing by 4xCO2"
+      },
+      {
+        "id": "piclim-aer",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "rfmip"
+        ],
+        "description": "Effective radiative forcing by present-day aerosols",
+        "model_realms": {},
+        "name": "piClim-aer",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Effective radiative forcing by present-day aerosols"
+      },
+      {
+        "id": "piclim-anthro",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "cmip"
+        ],
+        "description": "DECK: effective radiative forcing by present day anthropogenic forcings",
+        "model_realms": {},
+        "name": "piClim-anthro",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Effective radiative forcing by present day anthropogenic forcings"
+      },
+      {
+        "id": "piclim-ch4",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "aerchemmip"
+        ],
+        "description": "Perturbation from pre-industrial control using 1850 methane concentrations",
+        "model_realms": {},
+        "name": "piClim-CH4",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Pre-industrial climatological SSTs and sea ice extent, 1850 methane concentrations"
+      },
+      {
+        "id": "piclim-control",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "cmip"
+        ],
+        "description": "DECK: effective radiative forcing control",
+        "model_realms": {},
+        "name": "piClim-control",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Effective radiative forcing control simulation"
+      },
+      {
+        "id": "piclim-hc",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "aerchemmip"
+        ],
+        "description": "Perturbation from pre-industrial control using 1850 halocarbon concentrations",
+        "model_realms": {},
+        "name": "piClim-HC",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Pre-industrial climatological SSTs and sea ice extent, 1850 halocarbon concentrations"
+      },
+      {
+        "id": "piclim-histaer",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "rfmip"
+        ],
+        "description": "Effective radiative forcing by historical aerosol concentrations",
+        "model_realms": {},
+        "name": "piClim-histaer",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Effective radiative forcing by historical aerosol concentrations"
+      },
+      {
+        "id": "piclim-histall",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "rfmip"
+        ],
+        "description": "Effective radiative forcing by all historical forcing agents",
+        "model_realms": {},
+        "name": "piClim-histall",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Effective radiative forcing by all historical forcing agents"
+      },
+      {
+        "id": "piclim-n2o",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "aerchemmip"
+        ],
+        "description": "Perturbation from pre-industrial control using 1850 N2O concentrations",
+        "model_realms": {},
+        "name": "piClim-N2O",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Pre-industrial climatological SSTs and sea ice extent, 1850 N2O concentrations"
+      },
+      {
+        "id": "piclim-nox",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "aerchemmip"
+        ],
+        "description": "Perturbation from pre-industrial control using 1850 NOx emissions",
+        "model_realms": {},
+        "name": "piClim-NOx",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Pre-industrial climatological SSTs and sea ice extent, 1850 NOx emissions"
+      },
+      {
+        "id": "piclim-so2",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "aerchemmip"
+        ],
+        "description": "Perturbation from pre-industrial control using 1850 SO2 emissions",
+        "model_realms": {},
+        "name": "piClim-SO2",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Pre-industrial climatological SSTs and sea ice extent, 1850 SO2 emissions"
+      },
+      {
+        "id": "piclim-voc",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "aerchemmip"
+        ],
+        "description": "Perturbation from pre-industrial control using 1850 VOC emissions",
+        "model_realms": {},
+        "name": "piClim-VOC",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Pre-industrial climatological SSTs and sea ice extent, 1850 VOC emissions"
+      },
+      {
+        "id": "picontrol",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "cmip"
+        ],
+        "description": "DECK: pre-industrial control",
+        "model_realms": {},
+        "name": "piControl",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Pre-industrial control simulation"
+      },
+      {
+        "id": "sspx-slcf",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "aerchemmip"
+        ],
+        "description": "Future scenario with specified SLCF emissions",
+        "model_realms": {},
+        "name": "SSPX-SLCF",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Future scenario simulation with specified short-lived climate forcer emissions"
+      },
+      {
+        "id": "very-low-scenario",
+        "type": [
+          "wcrp:experiment",
+          "cmip7"
+        ],
+        "activity": [
+          "scenariomip"
+        ],
+        "description": "Very low emission scenario for future climate projections",
+        "model_realms": {},
+        "name": "very-low-scenario",
+        "parameters": {
+          "end": -999,
+          "min-number-yrs-per-sim": -999,
+          "start": -999,
+          "id": "additional_parameters"
+        },
+        "parent_activity": [
+          "none"
+        ],
+        "parent_experiment": [
+          "none"
+        ],
+        "sub_experiment": [
+          "none"
+        ],
+        "tier": 0,
+        "experiment_description": "Very low emission scenario for future climate projections"
+      }
+    ]
+  },
+  {
+    "@context": {
+      "@base": "https://wcrp-cmip.github.io/CMIP7_CVs/sub_experiment/",
+      "@vocab": "https://wcrp-cmip.github.io/CMIP7_CVs/sub_experiment/",
+      "id": "@id",
+      "type": "@type",
+      "cf": "https://wcrp-cmip.github.io/CF/",
+      "cmip6plus": "https://wcrp-cmip.github.io/CMIP6Plus_CVs/",
+      "cmip7": "https://wcrp-cmip.github.io/CMIP7_CVs/",
+      "obs4mips": "https://wolfiex.github.io/obs4MIPs-cmor-tables-ld/",
+      "universal": "https://wcrp-cmip.github.io/WCRP-universe/",
+      "variables": "https://wcrp-cmip.github.io/MIP-variables/"
+    },
+    "@graph": [
+      {
+        "id": "none",
+        "type": [
+          "wcrp:sub_experiment",
+          "cmip7"
+        ],
+        "description": "none",
+        "name": "none"
+      }
+    ]
+  }
+]
