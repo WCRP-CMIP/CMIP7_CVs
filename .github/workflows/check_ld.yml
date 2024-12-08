@@ -5,7 +5,7 @@ on:
       workflows: ['Deploy static content to Pages']
       types: [completed]
       branches:
-          - 'beta'
+          - 'production'
 
 jobs:
   update-jsonld:
