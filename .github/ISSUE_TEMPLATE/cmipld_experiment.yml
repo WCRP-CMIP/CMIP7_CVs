@@ -155,7 +155,6 @@ body:
         label: Sub Experiment
         description: Enter the sub experiment
         options:
-        - f2023
         - none
     validations:
         required: true

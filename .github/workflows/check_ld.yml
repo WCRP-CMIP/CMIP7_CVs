@@ -1,11 +1,11 @@
 name: Check JSON-LD Graph
 
 on:
-  push:
-    branches:
-      - production # Adjust if your GitHub Pages branch differs
-  repository_dispatch: # Triggered by another workflow
-
+  workflow_run:
+      workflows: ['Deploy static content to Pages']
+      types: [completed]
+      branches:
+          - 'beta'
 
 jobs:
   update-jsonld:
