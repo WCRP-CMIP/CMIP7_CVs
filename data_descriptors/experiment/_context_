@@ -6,15 +6,15 @@
             "@vocab": "https://wcrp-cmip.github.io/CMIP7_CVs/experiment/",
             "activity": {
                 "@type": "@id",
-                "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/activity/_context_"
+                "@context": "https://wcrp-cmip.github.io/WCRP-universe/activity/_context_"
             },
             "model_realms": {
                 "@container": "@id",
-                "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/realm/_context_"
+                "@context": "https://wcrp-cmip.github.io/WCRP-universe/realm/_context_"
             },
             "parent_activity": {
                 "@type": "@id",
-                "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/activity/_context_"
+                "@context": "https://wcrp-cmip.github.io/WCRP-universe/activity/_context_"
             },
             "parent_experiment": {
                 "@type": "@id",
