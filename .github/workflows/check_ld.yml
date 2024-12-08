@@ -2,8 +2,8 @@ name: Check JSON-LD Graph
 
 on:
   workflow_run:
-      workflows: ['Deploy static content to Pages']
-      types: [completed]
+      workflows: 'Deploy static content to Pages'
+      types: 'completed'
       branches:
           - 'production'
 
