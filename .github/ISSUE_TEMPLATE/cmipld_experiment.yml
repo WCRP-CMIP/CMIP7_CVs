@@ -153,8 +153,10 @@ body:
 -   id: sub_experiment
     attributes:
         label: Sub Experiment
-        description: 'A reference object from <a href=https://wcrp-cmip.github.io/CMIP7_CVs/sub_experiment/>
-            https://wcrp-cmip.github.io/CMIP7_CVs/sub_experiment/ </a>. '
+        description: Enter the sub experiment
+        options:
+        - f2023
+        - none
     validations:
         required: true
-    type: input
+    type: dropdown

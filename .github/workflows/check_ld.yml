@@ -1,10 +1,9 @@
-name: Update JSONLD
+name: Check JSON-LD Graph
 
 on:
   push:
     branches:
       - production # Adjust if your GitHub Pages branch differs
-  workflow_dispatch: # Manual trigger
   repository_dispatch: # Triggered by another workflow
 
 
@@ -19,7 +18,7 @@ jobs:
     #   with:
     #     fetch-depth: 0
 
-    - name: Ensure the JSON-LD files are funcitonal
+    - name: Ensure the JSON-LD files are functional
       id: check-graph
       uses: WCRP-CMIP/CMIP-LD/actions/check-graph@main
 
