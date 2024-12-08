@@ -138,5 +138,5 @@
     ],
     "allowAdditionalProperties": true,
     "markdown_content": " To add a new {id} please fill in the form below. \n\n Existing entries are: \n\n\t  {contains}  \n ___ \n Alternatively [see here]({base}) for more examples. \n  ___",
-    "base": "https://github.com/wcrp-cmip/CMIP7_CVs/tree/main/data_descriptors/experiment/"
+    "base": "https://github.com/wcrp-cmip/CMIP7_CVs/tree/main/src-data/experiment/"
 }
