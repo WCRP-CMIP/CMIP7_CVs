@@ -1,0 +1,26 @@
+name: Update JSONLD
+
+on:
+  push:
+    branches:
+      - production # Adjust if your GitHub Pages branch differs
+  workflow_dispatch: # Manual trigger
+  repository_dispatch: # Triggered by another workflow
+
+
+jobs:
+  update-jsonld:
+    runs-on: ubuntu-latest  # Specify the machine type
+      
+    steps:
+    
+    # - name: Checkout Code
+    #   uses: actions/checkout@v4
+    #   with:
+    #     fetch-depth: 0
+
+    - name: Ensure the JSON-LD files are funcitonal
+      id: check-graph
+      uses: WCRP-CMIP/CMIP-LD/actions/check-graph@main
+
+
