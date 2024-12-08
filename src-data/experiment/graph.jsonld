@@ -35,7 +35,10 @@
   "@graph": [
     {
   "id": "1pctco2-bgc",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "c4mip"
   ],
@@ -62,7 +65,10 @@
 }
     ,{
   "id": "1pctco2-rad",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "c4mip"
   ],
@@ -89,7 +95,10 @@
 }
     ,{
   "id": "1pctco2",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "cmip"
   ],
@@ -116,7 +125,10 @@
 }
     ,{
   "id": "abrupt-0p5co2",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "cfmip"
   ],
@@ -143,7 +155,10 @@
 }
     ,{
   "id": "abrupt-2xco2",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "cfmip"
   ],
@@ -170,7 +185,10 @@
 }
     ,{
   "id": "abrupt-4xco2",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "cmip"
   ],
@@ -197,7 +215,10 @@
 }
     ,{
   "id": "amip-p4k",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "cfmip"
   ],
@@ -224,7 +245,10 @@
 }
     ,{
   "id": "amip-piforcing",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "cfmip"
   ],
@@ -251,7 +275,10 @@
 }
     ,{
   "id": "amip",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "cmip"
   ],
@@ -278,7 +305,10 @@
 }
     ,{
   "id": "esm-flat10-cdr",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "c4mip"
   ],
@@ -305,7 +335,10 @@
 }
     ,{
   "id": "esm-flat10-zec",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "c4mip"
   ],
@@ -332,7 +365,10 @@
 }
     ,{
   "id": "esm-hist",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "cmip"
   ],
@@ -359,7 +395,10 @@
 }
     ,{
   "id": "esm-picontrol",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "cmip"
   ],
@@ -386,7 +425,10 @@
 }
     ,{
   "id": "g7-15k-sai",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "geomip"
   ],
@@ -413,7 +455,10 @@
 }
     ,{
   "id": "high-scenario",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "scenariomip"
   ],
@@ -440,7 +485,10 @@
 }
     ,{
   "id": "hist-aer",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "damip"
   ],
@@ -467,7 +515,10 @@
 }
     ,{
   "id": "hist-ghg",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "damip"
   ],
@@ -494,7 +545,10 @@
 }
     ,{
   "id": "hist-nat",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "damip"
   ],
@@ -521,7 +575,10 @@
 }
     ,{
   "id": "hist-piaer",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "aerchemmip"
   ],
@@ -548,7 +605,10 @@
 }
     ,{
   "id": "hist-pislcf",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "aerchemmip"
   ],
@@ -575,7 +635,10 @@
 }
     ,{
   "id": "historical",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "cmip"
   ],
@@ -602,7 +665,10 @@
 }
     ,{
   "id": "initialised-prediction-2025-2036",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "dcpp"
   ],
@@ -629,7 +695,10 @@
 }
     ,{
   "id": "land-hist",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "lmip"
   ],
@@ -656,7 +725,10 @@
 }
     ,{
   "id": "ligabrupt",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "pmip"
   ],
@@ -683,7 +755,10 @@
 }
     ,{
   "id": "low-overshoot-scenario",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "scenariomip"
   ],
@@ -710,7 +785,10 @@
 }
     ,{
   "id": "low-scenario",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "scenariomip"
   ],
@@ -737,7 +815,10 @@
 }
     ,{
   "id": "medium-scenario-and-extension",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "scenariomip"
   ],
@@ -764,7 +845,10 @@
 }
     ,{
   "id": "piclim-4xco2",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "cmip"
   ],
@@ -791,7 +875,10 @@
 }
     ,{
   "id": "piclim-aer",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "rfmip"
   ],
@@ -818,7 +905,10 @@
 }
     ,{
   "id": "piclim-anthro",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "cmip"
   ],
@@ -845,7 +935,10 @@
 }
     ,{
   "id": "piclim-ch4",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "aerchemmip"
   ],
@@ -872,7 +965,10 @@
 }
     ,{
   "id": "piclim-control",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "cmip"
   ],
@@ -899,7 +995,10 @@
 }
     ,{
   "id": "piclim-hc",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "aerchemmip"
   ],
@@ -926,7 +1025,10 @@
 }
     ,{
   "id": "piclim-histaer",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "rfmip"
   ],
@@ -953,7 +1055,10 @@
 }
     ,{
   "id": "piclim-histall",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "rfmip"
   ],
@@ -980,7 +1085,10 @@
 }
     ,{
   "id": "piclim-n2o",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "aerchemmip"
   ],
@@ -1007,7 +1115,10 @@
 }
     ,{
   "id": "piclim-nox",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "aerchemmip"
   ],
@@ -1034,7 +1145,10 @@
 }
     ,{
   "id": "piclim-so2",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "aerchemmip"
   ],
@@ -1061,7 +1175,10 @@
 }
     ,{
   "id": "piclim-voc",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "aerchemmip"
   ],
@@ -1088,7 +1205,10 @@
 }
     ,{
   "id": "picontrol",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "cmip"
   ],
@@ -1115,7 +1235,10 @@
 }
     ,{
   "id": "sspx-slcf",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "aerchemmip"
   ],
@@ -1142,7 +1265,10 @@
 }
     ,{
   "id": "very-low-scenario",
-  "type": "experiment",
+  "type": [
+    "wcrp:experiment",
+    "cmip7"
+  ],
   "activity": [
     "scenariomip"
   ],

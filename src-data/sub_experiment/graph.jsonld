@@ -15,7 +15,10 @@
   "@graph": [
     {
   "id": "none",
-  "type": "sub-experiment",
+  "type": [
+    "wcrp:sub_experiment",
+    "cmip7"
+  ],
   "description": "none",
   "name": "none"
 }
