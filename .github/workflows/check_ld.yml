@@ -40,7 +40,7 @@ jobs:
 
       - name: Validate JSON-LD from URL
         run: |
-          jsonld lint $PAGES_URL/graph.jsonld || exit 1
+          jsonld lint "$PAGES_URL/graph.jsonld" || exit 1
         shell: bash
 
 
