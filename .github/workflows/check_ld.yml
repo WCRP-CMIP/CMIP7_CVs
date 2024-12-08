@@ -8,7 +8,7 @@ on:
           - 'production'
 
 jobs:
-  update-jsonld:
+  check-graph:
     runs-on: ubuntu-latest  # Specify the machine type
       
     steps:
@@ -18,8 +18,29 @@ jobs:
     #   with:
     #     fetch-depth: 0
 
-    - name: Ensure the JSON-LD files are functional
-      id: check-graph
-      uses: WCRP-CMIP/CMIP-LD/actions/check-graph@main
+    # - name: Ensure the JSON-LD files are functional
+    #   id: check-graph
+    #   uses: WCRP-CMIP/CMIP-LD/actions/check-graph@main
+
+  
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+
+      - name: Set GitHub Pages URL
+        id: set-url
+        run: |
+          PAGES_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
+          echo "PAGES_URL=$PAGES_URL" >> $GITHUB_ENV
+        shell: bash
+
+      - name: Install jsonld CLI
+        run: |
+          npm install -g git+https://github.com/digitalbazaar/jsonld-cli.git
+        shell: bash
+
+      - name: Validate JSON-LD from URL
+        run: |
+          curl -s $PAGES_URL/graph.jsonld | jsonld frame - || exit 1
+        shell: bash
 
 
