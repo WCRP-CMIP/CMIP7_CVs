@@ -1,4 +1,4 @@
-{
+  {
     "@context": [
         "../_context_",
         {
@@ -9,7 +9,7 @@
                 "@context": "https://wcrp-cmip.github.io/WCRP-universe/activity/_context_"
             },
             "model_realms": {
-                "@container": "@id",
+                "@type": "@id",
                 "@context": "https://wcrp-cmip.github.io/WCRP-universe/source-type/_context_"
             },
             "parent_activity": {
@@ -28,7 +28,6 @@
     ],
     "@embed": "@always",
     "@type": [
-	"warp:experiment",
         "cmip7"
     ]
 }
